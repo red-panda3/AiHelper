@@ -2,7 +2,7 @@ import streamlit as st
 from google import genai
 
 # Initialize the Google GenAI client
-client = genai.Client(api_key="AIzaSyAMrHhEcDZEHQSE3tJuGV-uPI66MTwYv1Q")
+client = genai.Client(api_key="your api key")
 
 # Streamlit App Title
 st.title("Multi-Line Conversation with Talk AI")
